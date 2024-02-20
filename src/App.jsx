@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div className='app py-20 text-center'>
+    <div className='app py-20 text-center overflow-hidden'>
       <div className='container flex flex-col justify-between items-center'>
         <div>
           <input type="text" value={location} onChange={event => setLocation(event.target.value)} placeholder='Enter Location' onKeyDown={searchLocation} className='py-3 px-8 rounded-md input'/>
